@@ -6,81 +6,62 @@
 //
 
 import SwiftUI
+import UIKit
 import CoreData
+import _PhotosUI_SwiftUI
 
+
+/// I need to make
 struct ContentView: View {
-    @Environment(\.managedObjectContext) private var viewContext
-
-    @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
-        animation: .default)
-    private var items: FetchedResults<Item>
-
-    var body: some View {
-        NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-            Text("Select an item")
-        }
-    }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-            }
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            offsets.map { items[$0] }.forEach(viewContext.delete)
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-            }
-        }
+    let gridItems = [GridItem(.flexible(), spacing: -10), GridItem(.flexible(), spacing: -10)]
+    @StateObject var photoPickerService = PhotoPickerService()
+    @State var imageData: [UIImage] = []
+ //   let image = Image(uiImage: ImageStorageService.retrieveImageFromUserDefauts(forKey: "image")!)
+      var body: some View {
+          NavigationView {
+              ZStack {
+                  ScrollView {
+                      LazyVGrid(columns: gridItems, spacing: 20) {
+                          ForEach(imageData, id: \.self){ item in
+                              NavigationLink {
+                                  ImageDetailView(imageDetail: item)
+                              } label: {
+                                  Image(uiImage: item)
+                                      .resizable()
+                                      .cornerRadius(20)
+                                      .frame(width: 175,height: 175)
+                              }
+                          }
+                      }
+                  }
+                  .toolbar {
+                      ToolbarItem(placement: .navigationBarTrailing) {
+                          PhotosPicker(selection: $photoPickerService.imageSelection) {
+                              Menu {
+                                  
+                              } label: {
+                                  CustomAddButton()
+                              }
+                          }
+                         
+                      }
+                  }
+              }.onAppear {
+                  let imagesManager = ImagesManager()
+                  self.imageData = imagesManager.fetchImages()
+              }
+              .frame(maxWidth: .infinity,maxHeight: .infinity)
+           .background(.black)
+              .navigationTitle("Images")
+            .toolbarColorScheme(.dark, for: .navigationBar)
+            .toolbarBackground(
+                                          Color.black,
+                                          for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
+          }
+          
     }
 }
-
-private let itemFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .medium
-    return formatter
-}()
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C3B39392A9E09F6009F08B2 /* PhotoPickerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B39382A9E09F6009F08B2 /* PhotoPickerService.swift */; };
 		8C59989E2A9C68AB00E76421 /* ArcaneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C59989D2A9C68AB00E76421 /* ArcaneApp.swift */; };
 		8C5998A02A9C68AB00E76421 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C59989F2A9C68AB00E76421 /* ContentView.swift */; };
 		8C5998A22A9C68AC00E76421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5998A12A9C68AC00E76421 /* Assets.xcassets */; };
@@ -16,6 +17,27 @@
 		8C5998B42A9C68AC00E76421 /* ArcaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5998B32A9C68AC00E76421 /* ArcaneTests.swift */; };
 		8C5998BE2A9C68AC00E76421 /* ArcaneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5998BD2A9C68AC00E76421 /* ArcaneUITests.swift */; };
 		8C5998C02A9C68AC00E76421 /* ArcaneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5998BF2A9C68AC00E76421 /* ArcaneUITestsLaunchTests.swift */; };
+		8C5998CD2A9C730800E76421 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5998CC2A9C730800E76421 /* ImageDetailView.swift */; };
+		8C5998D62A9CC42D00E76421 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5998D52A9CC42D00E76421 /* WidgetKit.framework */; };
+		8C5998D82A9CC42D00E76421 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5998D72A9CC42D00E76421 /* SwiftUI.framework */; };
+		8C5998DB2A9CC42D00E76421 /* StillsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5998DA2A9CC42D00E76421 /* StillsBundle.swift */; };
+		8C5998DD2A9CC42D00E76421 /* StillsLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5998DC2A9CC42D00E76421 /* StillsLiveActivity.swift */; };
+		8C5998DF2A9CC42D00E76421 /* Stills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5998DE2A9CC42D00E76421 /* Stills.swift */; };
+		8C5998E22A9CC42E00E76421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5998E12A9CC42E00E76421 /* Assets.xcassets */; };
+		8C5998E42A9CC42E00E76421 /* Stills.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8C5998E02A9CC42D00E76421 /* Stills.intentdefinition */; };
+		8C5998E52A9CC42E00E76421 /* Stills.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8C5998E02A9CC42D00E76421 /* Stills.intentdefinition */; };
+		8C5998E82A9CC42E00E76421 /* StillsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8C5998D32A9CC42D00E76421 /* StillsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C5998EE2A9D025D00E76421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5998A12A9C68AC00E76421 /* Assets.xcassets */; };
+		8C5998F02A9DB83600E76421 /* CustomAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5998EF2A9DB83600E76421 /* CustomAddButton.swift */; };
+		8C9924222AA341BE000A7A4E /* InstaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9924212AA341BE000A7A4E /* InstaService.swift */; };
+		8C9924242AA341F2000A7A4E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9924232AA341F2000A7A4E /* Helper.swift */; };
+		8CB3B5162AA336E3008733F5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB3B5142AA336E3008733F5 /* MainInterface.storyboard */; };
+		8CB3B51A2AA336E3008733F5 /* ArcaneShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8CB3B5102AA336E3008733F5 /* ArcaneShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8CB3B5202AA339C9008733F5 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB3B51E2AA339C9008733F5 /* ShareViewController.swift */; };
+		8CB3B5212AA339C9008733F5 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CB3B51F2AA339C9008733F5 /* ShareViewController.xib */; };
+		8CD6FA2F2AA36EE900ECE1BC /* ImageStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD6FA2E2AA36EE900ECE1BC /* ImageStorageService.swift */; };
+		8CD6FA302AA36F9800ECE1BC /* ImageStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD6FA2E2AA36EE900ECE1BC /* ImageStorageService.swift */; };
+		8CD6FA322AA372F800ECE1BC /* ImagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD6FA312AA372F800ECE1BC /* ImagesManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +55,39 @@
 			remoteGlobalIDString = 8C5998992A9C68AB00E76421;
 			remoteInfo = Arcane;
 		};
+		8C5998E62A9CC42E00E76421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C5998922A9C68AB00E76421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C5998D22A9CC42D00E76421;
+			remoteInfo = StillsExtension;
+		};
+		8CB3B5182AA336E3008733F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C5998922A9C68AB00E76421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB3B50F2AA336E3008733F5;
+			remoteInfo = ArcaneShareExtension;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8C5998EC2A9CC42E00E76421 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8CB3B51A2AA336E3008733F5 /* ArcaneShareExtension.appex in Embed Foundation Extensions */,
+				8C5998E82A9CC42E00E76421 /* StillsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8C3B39382A9E09F6009F08B2 /* PhotoPickerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerService.swift; sourceTree = "<group>"; };
 		8C59989A2A9C68AB00E76421 /* Arcane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arcane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C59989D2A9C68AB00E76421 /* ArcaneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaneApp.swift; sourceTree = "<group>"; };
 		8C59989F2A9C68AB00E76421 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +100,29 @@
 		8C5998B92A9C68AC00E76421 /* ArcaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcaneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5998BD2A9C68AC00E76421 /* ArcaneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaneUITests.swift; sourceTree = "<group>"; };
 		8C5998BF2A9C68AC00E76421 /* ArcaneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C5998CC2A9C730800E76421 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
+		8C5998CE2A9C9EAD00E76421 /* Arcane.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arcane.entitlements; sourceTree = "<group>"; };
+		8C5998D32A9CC42D00E76421 /* StillsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StillsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5998D52A9CC42D00E76421 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		8C5998D72A9CC42D00E76421 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		8C5998DA2A9CC42D00E76421 /* StillsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillsBundle.swift; sourceTree = "<group>"; };
+		8C5998DC2A9CC42D00E76421 /* StillsLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillsLiveActivity.swift; sourceTree = "<group>"; };
+		8C5998DE2A9CC42D00E76421 /* Stills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stills.swift; sourceTree = "<group>"; };
+		8C5998E02A9CC42D00E76421 /* Stills.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Stills.intentdefinition; sourceTree = "<group>"; };
+		8C5998E12A9CC42E00E76421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C5998E32A9CC42E00E76421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C5998ED2A9CC46E00E76421 /* StillsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StillsExtension.entitlements; sourceTree = "<group>"; };
+		8C5998EF2A9DB83600E76421 /* CustomAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAddButton.swift; sourceTree = "<group>"; };
+		8C9924212AA341BE000A7A4E /* InstaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaService.swift; sourceTree = "<group>"; };
+		8C9924232AA341F2000A7A4E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		8CB3B5102AA336E3008733F5 /* ArcaneShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ArcaneShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB3B5152AA336E3008733F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8CB3B5172AA336E3008733F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB3B51E2AA339C9008733F5 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		8CB3B51F2AA339C9008733F5 /* ShareViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
+		8CD6FA2D2AA36EBF00ECE1BC /* ArcaneShareExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArcaneShareExtension.entitlements; sourceTree = "<group>"; };
+		8CD6FA2E2AA36EE900ECE1BC /* ImageStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStorageService.swift; sourceTree = "<group>"; };
+		8CD6FA312AA372F800ECE1BC /* ImagesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,15 +147,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C5998D02A9CC42D00E76421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5998D82A9CC42D00E76421 /* SwiftUI.framework in Frameworks */,
+				8C5998D62A9CC42D00E76421 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB3B50D2AA336E3008733F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		8C5998912A9C68AB00E76421 = {
 			isa = PBXGroup;
 			children = (
+				8C5998ED2A9CC46E00E76421 /* StillsExtension.entitlements */,
 				8C59989C2A9C68AB00E76421 /* Arcane */,
 				8C5998B22A9C68AC00E76421 /* ArcaneTests */,
 				8C5998BC2A9C68AC00E76421 /* ArcaneUITests */,
+				8C5998D92A9CC42D00E76421 /* Stills */,
+				8CB3B5112AA336E3008733F5 /* ArcaneShareExtension */,
+				8C5998D42A9CC42D00E76421 /* Frameworks */,
 				8C59989B2A9C68AB00E76421 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +186,8 @@
 				8C59989A2A9C68AB00E76421 /* Arcane.app */,
 				8C5998AF2A9C68AC00E76421 /* ArcaneTests.xctest */,
 				8C5998B92A9C68AC00E76421 /* ArcaneUITests.xctest */,
+				8C5998D32A9CC42D00E76421 /* StillsExtension.appex */,
+				8CB3B5102AA336E3008733F5 /* ArcaneShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,12 +195,17 @@
 		8C59989C2A9C68AB00E76421 /* Arcane */ = {
 			isa = PBXGroup;
 			children = (
+				8C5998CE2A9C9EAD00E76421 /* Arcane.entitlements */,
 				8C59989D2A9C68AB00E76421 /* ArcaneApp.swift */,
 				8C59989F2A9C68AB00E76421 /* ContentView.swift */,
 				8C5998A12A9C68AC00E76421 /* Assets.xcassets */,
 				8C5998A62A9C68AC00E76421 /* Persistence.swift */,
 				8C5998A82A9C68AC00E76421 /* Arcane.xcdatamodeld */,
 				8C5998A32A9C68AC00E76421 /* Preview Content */,
+				8C5998CC2A9C730800E76421 /* ImageDetailView.swift */,
+				8C5998EF2A9DB83600E76421 /* CustomAddButton.swift */,
+				8C3B39382A9E09F6009F08B2 /* PhotoPickerService.swift */,
+				8CD6FA312AA372F800ECE1BC /* ImagesManager.swift */,
 			);
 			path = Arcane;
 			sourceTree = "<group>";
@@ -133,6 +235,43 @@
 			path = ArcaneUITests;
 			sourceTree = "<group>";
 		};
+		8C5998D42A9CC42D00E76421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C5998D52A9CC42D00E76421 /* WidgetKit.framework */,
+				8C5998D72A9CC42D00E76421 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C5998D92A9CC42D00E76421 /* Stills */ = {
+			isa = PBXGroup;
+			children = (
+				8C5998DA2A9CC42D00E76421 /* StillsBundle.swift */,
+				8C5998DC2A9CC42D00E76421 /* StillsLiveActivity.swift */,
+				8C5998DE2A9CC42D00E76421 /* Stills.swift */,
+				8C5998E02A9CC42D00E76421 /* Stills.intentdefinition */,
+				8C5998E12A9CC42E00E76421 /* Assets.xcassets */,
+				8C5998E32A9CC42E00E76421 /* Info.plist */,
+			);
+			path = Stills;
+			sourceTree = "<group>";
+		};
+		8CB3B5112AA336E3008733F5 /* ArcaneShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8CD6FA2D2AA36EBF00ECE1BC /* ArcaneShareExtension.entitlements */,
+				8CB3B51E2AA339C9008733F5 /* ShareViewController.swift */,
+				8CB3B51F2AA339C9008733F5 /* ShareViewController.xib */,
+				8CB3B5142AA336E3008733F5 /* MainInterface.storyboard */,
+				8CB3B5172AA336E3008733F5 /* Info.plist */,
+				8C9924212AA341BE000A7A4E /* InstaService.swift */,
+				8C9924232AA341F2000A7A4E /* Helper.swift */,
+				8CD6FA2E2AA36EE900ECE1BC /* ImageStorageService.swift */,
+			);
+			path = ArcaneShareExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,10 +282,13 @@
 				8C5998962A9C68AB00E76421 /* Sources */,
 				8C5998972A9C68AB00E76421 /* Frameworks */,
 				8C5998982A9C68AB00E76421 /* Resources */,
+				8C5998EC2A9CC42E00E76421 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8C5998E72A9CC42E00E76421 /* PBXTargetDependency */,
+				8CB3B5192AA336E3008733F5 /* PBXTargetDependency */,
 			);
 			name = Arcane;
 			productName = Arcane;
@@ -189,6 +331,40 @@
 			productReference = 8C5998B92A9C68AC00E76421 /* ArcaneUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		8C5998D22A9CC42D00E76421 /* StillsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5998E92A9CC42E00E76421 /* Build configuration list for PBXNativeTarget "StillsExtension" */;
+			buildPhases = (
+				8C5998CF2A9CC42D00E76421 /* Sources */,
+				8C5998D02A9CC42D00E76421 /* Frameworks */,
+				8C5998D12A9CC42D00E76421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StillsExtension;
+			productName = StillsExtension;
+			productReference = 8C5998D32A9CC42D00E76421 /* StillsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8CB3B50F2AA336E3008733F5 /* ArcaneShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB3B51D2AA336E3008733F5 /* Build configuration list for PBXNativeTarget "ArcaneShareExtension" */;
+			buildPhases = (
+				8CB3B50C2AA336E3008733F5 /* Sources */,
+				8CB3B50D2AA336E3008733F5 /* Frameworks */,
+				8CB3B50E2AA336E3008733F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcaneShareExtension;
+			productName = ArcaneShareExtension;
+			productReference = 8CB3B5102AA336E3008733F5 /* ArcaneShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,6 +386,12 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 8C5998992A9C68AB00E76421;
 					};
+					8C5998D22A9CC42D00E76421 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8CB3B50F2AA336E3008733F5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = 8C5998952A9C68AB00E76421 /* Build configuration list for PBXProject "Arcane" */;
@@ -228,6 +410,8 @@
 				8C5998992A9C68AB00E76421 /* Arcane */,
 				8C5998AE2A9C68AC00E76421 /* ArcaneTests */,
 				8C5998B82A9C68AC00E76421 /* ArcaneUITests */,
+				8C5998D22A9CC42D00E76421 /* StillsExtension */,
+				8CB3B50F2AA336E3008733F5 /* ArcaneShareExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +440,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C5998D12A9CC42D00E76421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5998EE2A9D025D00E76421 /* Assets.xcassets in Resources */,
+				8C5998E22A9CC42E00E76421 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB3B50E2AA336E3008733F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB3B5212AA339C9008733F5 /* ShareViewController.xib in Resources */,
+				8CB3B5162AA336E3008733F5 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -264,9 +466,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C5998A72A9C68AC00E76421 /* Persistence.swift in Sources */,
+				8CD6FA322AA372F800ECE1BC /* ImagesManager.swift in Sources */,
 				8C5998AA2A9C68AC00E76421 /* Arcane.xcdatamodeld in Sources */,
 				8C5998A02A9C68AB00E76421 /* ContentView.swift in Sources */,
 				8C59989E2A9C68AB00E76421 /* ArcaneApp.swift in Sources */,
+				8C3B39392A9E09F6009F08B2 /* PhotoPickerService.swift in Sources */,
+				8C5998F02A9DB83600E76421 /* CustomAddButton.swift in Sources */,
+				8CD6FA302AA36F9800ECE1BC /* ImageStorageService.swift in Sources */,
+				8C5998CD2A9C730800E76421 /* ImageDetailView.swift in Sources */,
+				8C5998E52A9CC42E00E76421 /* Stills.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +495,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C5998CF2A9CC42D00E76421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5998DB2A9CC42D00E76421 /* StillsBundle.swift in Sources */,
+				8C5998DF2A9CC42D00E76421 /* Stills.swift in Sources */,
+				8C5998DD2A9CC42D00E76421 /* StillsLiveActivity.swift in Sources */,
+				8C5998E42A9CC42E00E76421 /* Stills.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB3B50C2AA336E3008733F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB3B5202AA339C9008733F5 /* ShareViewController.swift in Sources */,
+				8CD6FA2F2AA36EE900ECE1BC /* ImageStorageService.swift in Sources */,
+				8C9924222AA341BE000A7A4E /* InstaService.swift in Sources */,
+				8C9924242AA341F2000A7A4E /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -300,7 +530,28 @@
 			target = 8C5998992A9C68AB00E76421 /* Arcane */;
 			targetProxy = 8C5998BA2A9C68AC00E76421 /* PBXContainerItemProxy */;
 		};
+		8C5998E72A9CC42E00E76421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C5998D22A9CC42D00E76421 /* StillsExtension */;
+			targetProxy = 8C5998E62A9CC42E00E76421 /* PBXContainerItemProxy */;
+		};
+		8CB3B5192AA336E3008733F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB3B50F2AA336E3008733F5 /* ArcaneShareExtension */;
+			targetProxy = 8CB3B5182AA336E3008733F5 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CB3B5142AA336E3008733F5 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB3B5152AA336E3008733F5 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8C5998C12A9C68AC00E76421 /* Debug */ = {
@@ -420,11 +671,14 @@
 		8C5998C42A9C68AC00E76421 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Arcane/Arcane.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Arcane/Preview Content\"";
+				DEVELOPMENT_TEAM = D4BVGPY4FJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -448,11 +702,14 @@
 		8C5998C52A9C68AC00E76421 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Arcane/Arcane.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Arcane/Preview Content\"";
+				DEVELOPMENT_TEAM = D4BVGPY4FJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -545,6 +802,114 @@
 			};
 			name = Release;
 		};
+		8C5998EA2A9CC42E00E76421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StillsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4BVGPY4FJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stills/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Stills;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rohit.Arcane.Stills;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C5998EB2A9CC42E00E76421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StillsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4BVGPY4FJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stills/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Stills;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rohit.Arcane.Stills;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CB3B51B2AA336E3008733F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ArcaneShareExtension/ArcaneShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4BVGPY4FJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArcaneShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ArcaneShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rohit.Arcane.ArcaneShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CB3B51C2AA336E3008733F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ArcaneShareExtension/ArcaneShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4BVGPY4FJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArcaneShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ArcaneShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rohit.Arcane.ArcaneShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -580,6 +945,24 @@
 			buildConfigurations = (
 				8C5998CA2A9C68AC00E76421 /* Debug */,
 				8C5998CB2A9C68AC00E76421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5998E92A9CC42E00E76421 /* Build configuration list for PBXNativeTarget "StillsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5998EA2A9CC42E00E76421 /* Debug */,
+				8C5998EB2A9CC42E00E76421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB3B51D2AA336E3008733F5 /* Build configuration list for PBXNativeTarget "ArcaneShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB3B51B2AA336E3008733F5 /* Debug */,
+				8CB3B51C2AA336E3008733F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
